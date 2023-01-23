@@ -10,9 +10,6 @@ function setup() {
   //if (isMobile) {
     //var canvas = createCanvas(windowWidth, windowHeight);
 
-
-
-
     var canvas = createCanvas(window.innerWidth, window.innerHeight);
 
     const particlesLength = Math.floor(window.innerWidth*3); //number of Particles is 3 times width of the window
@@ -20,7 +17,14 @@ function setup() {
     for (let i = 0; i < particlesLength; i++) {
       particles.push(new Particle()); //initialize a new Particle for every spot in the particles array
     }
-    canvas.parent('container1');
+    if (canvas) {
+      canvas.parent('container1');
+  } else {
+      console.log("The element with ID 'container1' does not exist in the HTML.");
+  }
+    
+
+    
   }
   //}
   
