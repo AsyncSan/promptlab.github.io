@@ -15,17 +15,52 @@ layout: main
 {% endif %}
 
 <div>
-    <canvas id="sketch"></canvas>
+    <!--<canvas id="sketch"></canvas>-->
     <script type="text/javascript" src="/assets/js/sketch.js">
-        console.log("HEy");
+        var mobile = false;
+if (navigator.userAgent.match(/Android/i)
+  || navigator.userAgent.match(/webOS/i)
+  || navigator.userAgent.match(/iPhone/i)
+  || navigator.userAgent.match(/iPad/i)
+  || navigator.userAgent.match(/iPod/i)
+  || navigator.userAgent.match(/BlackBerry/i)
+  || navigator.userAgent.match(/Windows Phone/i)
+) {
+    mobile = true;
+}
     </script>
 </div>
+{% if site.mobile %}
+<div id="container">
+    <canvas id="myCanvas"></canvas>
+    <div id="myHTML">
+        <section class="herocanvas">
+            <div class="pixels"></div>
+            <div class="gradient"></div>
+            <div class="content">
 
+                <h1 class="title">Prompts to make work and your life easier</h1>
+                <p class="description">Search for a situation that you want to ease</p>
+
+                <input type="text" id="search" class="dosearch" placeholder="Search...">
+
+                
+                <div class="buttons">
+                    <a href="{{ featured.url | prepend: site.baseurl }}" role="button" class="button">
+                        <svg><use xlink:href="#icon-read"></use></svg>
+                        <span>{{ site.translations.button.read_now | default: "Read Now" }}</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+  </div>
+  {% endif %}
 <main class="home {% if site.show_hero and paginator == nil or paginator.page == 1 %}no-padding{% endif %}" role="main">
     {% if site.show_hero and paginator == nil or paginator.page == 1 %}
         <!-- Hero -->
         {% assign featured = posts.first %}
-        <section class="hero" style="background-image: url({{ featured.image }})">
+        <section class="hero">
             <div class="pixels"></div>
             <div class="gradient"></div>
             <div class="content">
@@ -38,11 +73,13 @@ layout: main
                     {% endif %}
                 </time>
                 -->
-                <h1 class="title">I prompt, therefore I am</h1>
-                <p class="description">What do you need to make your life easier?</p>
-                <a id="search" class="dosearch" role="button">
+                <h1 class="title">Prompts to make work and your life easier</h1>
+                <p class="description">Search for a situation that you want to ease</p>
+
+                <input type="text" id="search" class="dosearch" placeholder="Search...">
+
                     
-                </a>
+
                 <div class="buttons">
                     <a href="{{ featured.url | prepend: site.baseurl }}" role="button" class="button">
                         <svg><use xlink:href="#icon-read"></use></svg>

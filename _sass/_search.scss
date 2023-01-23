@@ -136,3 +136,18 @@
     z-index: 18;
   }
 }
+
+.dosearch{
+    width: 100%;
+    height: rem(40px);
+    line-height: rem(30px);
+    @include mainFont(300);
+    font-size: rem(20px);
+    color: $primaryDark;
+    background-color: $accentDark;
+    border: 0;
+    border-radius: rem(20px);
+    padding: rem(5px) rem(25px);
+    outline: 0;
+  
+}

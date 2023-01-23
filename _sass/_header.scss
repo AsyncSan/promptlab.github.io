@@ -148,3 +148,11 @@ body.light:not(.main-page) {
     opacity: 1;
   }
 }
+
+#newSearchBar {
+  width: 50%;
+  height: 40px;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  display: block;
+}
