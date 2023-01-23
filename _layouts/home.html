@@ -17,20 +17,11 @@ layout: main
 <div>
     <!--<canvas id="sketch"></canvas>-->
     <script type="text/javascript" src="/assets/js/sketch.js">
-        var mobile = false;
-if (navigator.userAgent.match(/Android/i)
-  || navigator.userAgent.match(/webOS/i)
-  || navigator.userAgent.match(/iPhone/i)
-  || navigator.userAgent.match(/iPad/i)
-  || navigator.userAgent.match(/iPod/i)
-  || navigator.userAgent.match(/BlackBerry/i)
-  || navigator.userAgent.match(/Windows Phone/i)
-) {
-    mobile = true;
-}
+        console.log("yooo");
     </script>
 </div>
-{% if site.mobile %}
+
+
 <div id="container">
     <canvas id="myCanvas"></canvas>
     <div id="myHTML">
@@ -55,7 +46,7 @@ if (navigator.userAgent.match(/Android/i)
         </section>
     </div>
   </div>
-  {% endif %}
+
 <main class="home {% if site.show_hero and paginator == nil or paginator.page == 1 %}no-padding{% endif %}" role="main">
     {% if site.show_hero and paginator == nil or paginator.page == 1 %}
         <!-- Hero -->
