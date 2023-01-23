@@ -16,12 +16,23 @@ layout: main
 
 <div>
     <!--<canvas id="sketch"></canvas>-->
-    <script type="text/javascript" src="/assets/js/sketch.js">
-        console.log("yooo");
-    </script>
+    <script type="text/javascript" src="/assets/js/sketch.js"></script>
 </div>
-
 <!--
+<style>
+    @media (max-width: 767px) {
+        .hidden-mobile {
+          display: none;
+        }
+      }
+      @media (min-width: 768px) {
+        .container {
+          display: none;
+        }
+      }
+</style>
+
+
 <div id="container">
     <canvas id="myCanvas"></canvas>
     <div id="myHTML">
@@ -35,13 +46,6 @@ layout: main
 
                 <input type="text" id="search" class="dosearch" placeholder="Search...">
 
-                
-                <div class="buttons">
-                    <a href="{{ featured.url | prepend: site.baseurl }}" role="button" class="button">
-                        <svg><use xlink:href="#icon-read"></use></svg>
-                        <span>{{ site.translations.button.read_now | default: "Read Now" }}</span>
-                    </a>
-                </div>
             </div>
         </section>
     </div>
@@ -51,7 +55,8 @@ layout: main
     {% if site.show_hero and paginator == nil or paginator.page == 1 %}
         <!-- Hero -->
         {% assign featured = posts.first %}
-        <section class="hero">
+        <section class="hero hidden-mobile">
+            
             <div class="pixels"></div>
             <div class="gradient"></div>
             <div class="content">
@@ -67,7 +72,7 @@ layout: main
                 -->
                 <h1 class="title">Prompts to make work and your life easier</h1>
                 <p class="description">Search for a situation that you want to ease</p>
-
+                <br>
                 <input type="text" id="search" class="dosearch" placeholder="Search...">
 
                     
@@ -79,6 +84,9 @@ layout: main
                     </a>
                 </div>
             </div>
+
+            
+
             </div>
         </section>
     {% endif %}
