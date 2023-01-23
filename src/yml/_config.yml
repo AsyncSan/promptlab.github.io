@@ -64,3 +64,5 @@ exclude: [
 
 # Theme
 version: v3.1.2
+mobile: false
+
