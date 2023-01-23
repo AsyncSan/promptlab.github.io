@@ -1,19 +1,20 @@
 ---
 layout: page
 menu: false
-date: '2020-02-27 01:53:59'
+date: '2023-01-22 01:53:59'
 title: About
-description: Some description.
+description: thePrompt.ninja is about helping people leverage the full potential of A.I.
 permalink: /about/
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
+<img class="img-rounded" src="/assets/img/uploads/rene murrell - maybe.jpg" alt="René Murrell" width="200">
 
 # About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+thePrompt.ninja is about helping people leverage the full potential of A.I.
+This site is a never ending story of usefull tipps and tricks to use A.I. generation tools like
+ChatGPT, Dall-e, stablediffusion and many more.
+The person that you see on the picture is not me. But I felt like it could represent me. This image is of course A.I. generated but I am real.. (or am I?)
+
+If you want to contribute and be creditited with some cool and useful prompts, feel free to contact me on LinkedIn or via the contact form.
+

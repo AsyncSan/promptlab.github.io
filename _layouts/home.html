@@ -22,6 +22,7 @@ layout: main
             <div class="pixels"></div>
             <div class="gradient"></div>
             <div class="content">
+                <!--
                 <time datetime="{{ featured.date | date_to_xmlschema }}" class="date">
                     {% if site.date_format == nil %}
                         {{ featured.date | date: "%m.%d.%Y" }}
@@ -29,8 +30,12 @@ layout: main
                         {{ featured.date | date: site.date_format }}
                     {% endif %}
                 </time>
-                <h1 class="title">{{ featured.title }}</h1>
-                <p class="description">{{ featured.subtitle }}</p>
+                -->
+                <h1 class="title">I prompt, therefore I am</h1>
+                <p class="description">What do you need to make your life easier?</p>
+                <a id="search" class="dosearch" role="button">
+                    
+                </a>
                 <div class="buttons">
                     <a href="{{ featured.url | prepend: site.baseurl }}" role="button" class="button">
                         <svg><use xlink:href="#icon-read"></use></svg>

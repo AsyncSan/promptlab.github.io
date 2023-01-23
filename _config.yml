@@ -1,8 +1,7 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: ThePrompt.Ninja
+title: ThePrompt.Ninja | Prompt examples for beginner to Xpert ChatGPT and Image Generation 
+description: ThePrompt.Ninja your main source to ease your life and save time. Be more productive
 tags:
   - blog
   - template
@@ -19,7 +18,7 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@test.com
+email: r.murrell@hotmail.de
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
@@ -29,7 +28,7 @@ formspree_form_id: formspree_form_id
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
+github_username: asyncsan
 facebook_username: facebook_username
 twitter_username: twitter_username
 instagram_username: instagram_username
@@ -63,7 +62,7 @@ collections:
   authors:
     output: true
 paginate_path: "/page/:num/"
-show_get_theme_btn: true
+show_get_theme_btn: false
 use_logo: false
 
 # Content paginator
