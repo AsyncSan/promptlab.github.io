@@ -3,12 +3,12 @@ name: ThePrompt.Ninja
 title: ThePrompt.Ninja | Prompt examples for beginner to Xpert ChatGPT and Image Generation 
 description: ThePrompt.Ninja your main source to ease your life and save time. Be more productive
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
-show_hero: true
+  - A.I.
+  - Prompts
+  - Make life easier with A.I.
+  - Productivity
+  - Information
+show_hero: false
 menu:
   - title: Home
     url: /
@@ -16,8 +16,8 @@ menu:
     url: /about
   - title: Contact
     url: /contact
-  - title: Feed
-    url: /feed.xml
+#  - title: Feed
+#    url: /feed.xml
 email: r.murrell@hotmail.de
 # See: https://disqus.com/
 disqus_username: disqus_username
@@ -56,14 +56,14 @@ sent_message_url: "/contact/message-sent/"
 # Build settings
 markdown: kramdown
 highlighter: rouge
-#permalink: /:title/
-permalink: pretty
+permalink: /:categories/:title/
+#permalink: pretty
 collections:
   authors:
     output: true
 paginate_path: "/page/:num/"
 show_get_theme_btn: false
-use_logo: false
+use_logo: true
 
 # Content paginator
 paginate_content:
@@ -73,7 +73,7 @@ paginate_content:
     - posts
   auto: false
   separator: "--page-break--"
-  permalink: "/:num/"
+  permalink: /:categories/:title/
   seo_canonical: true
   properties:
     part:

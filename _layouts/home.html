@@ -42,14 +42,17 @@ layout: main
             <div class="content">
 
                 <h1 class="title">Prompts to make work and your life easier</h1>
-                <p class="description">Search for a situation that you want to ease</p>
-
-                <input type="text" id="search" class="dosearch" placeholder="Search...">
-
+                <p class="description">Search for a situation<br>that you want to ease</p>
+                <br>
+                <br>
+                <input type="text" id="search" class="dosearch" placeholder="E.g. Job application">
+                
+                
             </div>
         </section>
     </div>
-  </div>
+    <div class="arrow"></div>
+</div>
 
 <main class="home {% if site.show_hero and paginator == nil or paginator.page == 1 %}no-padding{% endif %}" role="main">
     {% if site.show_hero and paginator == nil or paginator.page == 1 %}

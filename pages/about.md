@@ -16,5 +16,5 @@ This site is a never ending story of usefull tipps and tricks to use A.I. genera
 ChatGPT, Dall-e, stablediffusion and many more.
 The person that you see on the picture is not me. But I felt like it could represent me. This image is of course A.I. generated but I am real.. (or am I?)
 
-If you want to contribute and be creditited with some cool and useful prompts, feel free to contact me on LinkedIn or via the contact form.
+If you want to contribute and be creditited with some cool and useful prompts, feel free to contact me on LinkedIn, Github (Issue) or via the contact form.
 

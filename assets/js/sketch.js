@@ -12,7 +12,7 @@ function setup() {
 
     var canvas = createCanvas(window.innerWidth, window.innerHeight);
 
-    const particlesLength = Math.floor(window.innerWidth*3); //number of Particles is 3 times width of the window
+    const particlesLength = Math.floor(window.innerWidth*0.5); //number of Particles is 3 times width of the window
   
     for (let i = 0; i < particlesLength; i++) {
       particles.push(new Particle()); //initialize a new Particle for every spot in the particles array
@@ -54,8 +54,10 @@ function setup() {
 
     constructor() {
       this.pos = createVector(random(width), random(height));
-      this.size = random(1, 2);
-      this.color = random(100, 255); //define how see thru each particle is
+      //this.size = random(1, 2);
+      //this.color = random(100, 255);
+    this.size = random(1, 200);
+    this.color = random(10, 20); //define how see thru each particle is
       this.vel = createVector(random(-1, 1), random(-1, 1))
       this.acc = createVector(0, 0); //set the acceleration of each particle
       this.mass = this.size; //set the mass of each particle to be the same as its size 
@@ -109,7 +111,7 @@ function setup() {
     attracted(mousePos) {
       let force = p5.Vector.sub(mousePos, this.pos); //the force on each particle moves in is the target position minus its current position (also its distance)
       let distSquared = force.magSq(); //the distance between current and target position squared (will be used to calculate gravity force enacted on particle)
-      let grav = -1000; //set the gravity enacted on the particle (based on universal gravitational constant)
+      let grav = -2000; //set the gravity enacted on the particle (based on universal gravitational constant)
       let magnitude = grav / distSquared; //the magnitude of the force enacted on each particle
       force.setMag(magnitude);
       this.acc = force;

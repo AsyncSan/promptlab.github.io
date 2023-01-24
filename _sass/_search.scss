@@ -142,7 +142,7 @@
     height: rem(40px);
     line-height: rem(30px);
     @include mainFont(300);
-    font-size: rem(20px);
+    font-size: 15px;//rem(20px);
     color: $primaryDark;
     background-color: $accentDark;
     border: 0;
