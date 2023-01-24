@@ -41,7 +41,7 @@ def download_and_convert_image(image_url, title, filename):
 
 
 
-
+#Dont forget to save your API key as global variable
 def get_image_link(prompt):
     model = replicate.models.get("stability-ai/stable-diffusion")
     version = model.versions.get("f178fa7a1ae43a9a9af01b833b9d2ecf97b1bcb0acfd2dc5dd04895e042863f1")

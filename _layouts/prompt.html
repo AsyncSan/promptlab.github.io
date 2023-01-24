@@ -1,0 +1,25 @@
+---
+layout: main
+---
+
+<div>
+<script src="queryAPI.js"></script>
+</div>
+
+
+
+  <div class="post">
+
+    <div id="promptcontainer" class="container" style="text-align: center;">
+        <label>Enter API Key: </label>
+        <input type="text" id="apiKey" />
+        <button id="promptbutton" onclick="queryAPI('https://api.openai.com/v1/models', 'Bearer ' + document.getElementById('apiKey').value, 'org-reyhJK05Ya3s4pyJG4zMBe7r')">Submit</button>
+        
+      </div>
+
+    <article class="post-content fullwidth">
+      {{ content }}
+    </article>
+  
+  </div>
+  

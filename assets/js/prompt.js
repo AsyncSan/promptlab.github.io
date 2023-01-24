@@ -13,4 +13,4 @@ function queryAPI(url, authorization, org) {
     xhr.send();
   }
   
-  queryAPI("https://api.openai.com/v1/models", "Bearer YOUR_API_KEY", "org-reyhJK05Ya3s4pyJG4zMBe7r");
+ // queryAPI("https://api.openai.com/v1/models", "Bearer YOUR_API_KEY", "org-reyhJK05Ya3s4pyJG4zMBe7r");

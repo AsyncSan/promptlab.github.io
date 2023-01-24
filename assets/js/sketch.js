@@ -56,8 +56,8 @@ function setup() {
       this.pos = createVector(random(width), random(height));
       //this.size = random(1, 2);
       //this.color = random(100, 255);
-    this.size = random(1, 200);
-    this.color = random(10, 20); //define how see thru each particle is
+      this.size = random(1, 200);
+      this.color = random(20, 50); //define how see thru each particle is
       this.vel = createVector(random(-1, 1), random(-1, 1))
       this.acc = createVector(0, 0); //set the acceleration of each particle
       this.mass = this.size; //set the mass of each particle to be the same as its size 
