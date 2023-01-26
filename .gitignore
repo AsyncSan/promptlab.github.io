@@ -6,3 +6,7 @@ package-json.lock
 _site
 node_modules
 _drafts
+promptstopost.csv
+csvToMdFile.py
+imageresize.py
+categoryscript.py

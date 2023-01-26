@@ -711,3 +711,24 @@
     }
   }
 }
+
+.promptouterdiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.promptinnerdivtop {
+  background-color: lightgrey;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.prompttextdiv {
+  padding: 5px;
+}
+
+.promptinnerdivbottom {
+  background-color: darkgrey;
+  padding: 10px;
+  color: black;
+}

@@ -1,0 +1,26 @@
+
+#promptcontainer {
+    position: relative;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+#apiKey {
+    border-radius: 5px;
+    background-color: #ccc;
+}
+
+
+#promptcontainer label, #promptcontainer input {
+    position: absolute;
+}
+
+#promptcontainer label {
+    top: 10px;
+    left: 10px;
+}
+
+#promptcontainer input {
+    top: 35px;
+    left: 10px;
+}

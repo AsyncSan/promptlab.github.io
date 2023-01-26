@@ -1,25 +1,49 @@
 ---
-layout: main
+layout: default
 ---
 
 <div>
-<script src="queryAPI.js"></script>
+<script src="/assets/js/prompt.js"></script>
 </div>
 
-
-
-  <div class="post">
-
-    <div id="promptcontainer" class="container" style="text-align: center;">
-        <label>Enter API Key: </label>
-        <input type="text" id="apiKey" />
-        <button id="promptbutton" onclick="queryAPI('https://api.openai.com/v1/models', 'Bearer ' + document.getElementById('apiKey').value, 'org-reyhJK05Ya3s4pyJG4zMBe7r')">Submit</button>
-        
-      </div>
 
     <article class="post-content fullwidth">
       {{ content }}
     </article>
-  
-  </div>
-  
+
+    {% raw %}
+    <div id="promptcontainer" >
+        <label>Enter API Key: </label>
+        <input type="text" id="apiKey" />
+    </div>
+    
+    <style>
+#promptcontainer {
+    position: relative;
+    text-align: center;
+    background-color: aquamarine;
+    height: 100px;
+}
+
+#apiKey {
+    border-radius: 5px;
+    background-color: #ccc;
+}
+
+
+#promptcontainer label, #promptcontainer input {
+    position: absolute;
+}
+
+#promptcontainer label {
+    top: 10px;
+    left: 10px;
+}
+
+#promptcontainer input {
+    top: 35px;
+    left: 10px;
+}
+    </style>
+    {% endraw %}
+
