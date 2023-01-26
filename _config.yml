@@ -20,6 +20,8 @@ menu:
     url: /contact
   - title: Prompt
     url: /prompt
+  - title: Blog
+    url: /blog
 #  - title: Feed
 #    url: /feed.xml
 email: r.murrell@hotmail.de
@@ -27,7 +29,7 @@ email: r.murrell@hotmail.de
 disqus_username: disqus_username
 # Contact Form Setting
 # See: https://formspree.io/
-formspree_form_id: formspree_form_id
+formspree_form_id: mvongyzj
 
 
 # Social Media Settings

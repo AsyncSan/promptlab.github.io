@@ -7,6 +7,6 @@ description: thePrompt.ninja is about helping people leverage the full potential
 permalink: /blog/
 ---
 
-# Blog
+## Most recent blog posts
 
 Read about interesting topics regarding A.I. and educate yourself on a higher level
