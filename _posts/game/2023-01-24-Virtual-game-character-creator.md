@@ -3,7 +3,7 @@ date: 2023-01-26T17:39:52.543854Z
 layout: post
 title: Virtual game character creator
 subtitle: A prompt to accelerate your game
-description: Prompt to help you with game 
+description: Create a virtual character with skills, stats and everything
 image: /assets/img/blogtitleimages/Virtualgamecharactercreator.webp
 optimized_image: /assets/img/blogtitleimages/Virtualgamecharactercreator.webp
 category: fun/game

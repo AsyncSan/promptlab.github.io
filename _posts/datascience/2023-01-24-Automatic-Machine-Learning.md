@@ -2,8 +2,8 @@
 date: 2023-01-31T19:36:35.969875Z
 layout: post
 title: Automatic Machine Learning
-subtitle: A prompt to accelerate your datascience
-description: Prompt to help you with datascience 
+subtitle: Generate Python code to solve a certain task
+description: Generate Python code to solve a certain task
 image: /assets/img/blogtitleimages/AutomaticMachineLearning.webp
 optimized_image: /assets/img/blogtitleimages/AutomaticMachineLearning.webp
 category: datascience

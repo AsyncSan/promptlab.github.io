@@ -2,8 +2,8 @@
 date: 2023-01-31T19:28:16.065755Z
 layout: post
 title: Train Classification Model
-subtitle: A prompt to accelerate your datascience
-description: Prompt to help you with datascience 
+subtitle: Build a ML model that predicts something
+description: Build a ML model that predicts something
 image: /assets/img/blogtitleimages/TrainClassificationModel.webp
 optimized_image: /assets/img/blogtitleimages/TrainClassificationModel.webp
 category: datascience

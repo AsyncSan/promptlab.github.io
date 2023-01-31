@@ -3,7 +3,7 @@ date: 2023-01-26T17:16:36.572495Z
 layout: post
 title: Research a topic
 subtitle: A prompt to accelerate your marketing
-description: Prompt to help you with marketing 
+description: Get more information about a topic
 image: /assets/img/blogtitleimages/Researchatopic.webp
 optimized_image: /assets/img/blogtitleimages/Researchatopic.webp
 category: marketing

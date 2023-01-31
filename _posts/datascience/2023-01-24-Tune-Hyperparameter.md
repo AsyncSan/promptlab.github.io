@@ -2,8 +2,8 @@
 date: 2023-01-31T19:37:24.266253Z
 layout: post
 title: Tune Hyperparameter
-subtitle: A prompt to accelerate your datascience
-description: Prompt to help you with datascience 
+subtitle: Tune the hyperparameter with the help of A.I.
+description: Tune the hyperparameter with the help of A.I.
 image: /assets/img/blogtitleimages/TuneHyperparameter.webp
 optimized_image: /assets/img/blogtitleimages/TuneHyperparameter.webp
 category: datascience

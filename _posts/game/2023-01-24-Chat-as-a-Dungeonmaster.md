@@ -2,8 +2,8 @@
 date: 2023-01-26T17:37:56.169790Z
 layout: post
 title: Chat as a Dungeonmaster
-subtitle: A prompt to accelerate your game
-description: Prompt to help you with game 
+subtitle: Let the A.I. be your dungeon master
+description: Let the A.I. be your dungeon master
 image: /assets/img/blogtitleimages/ChatasaDungeonmaster.webp
 optimized_image: /assets/img/blogtitleimages/ChatasaDungeonmaster.webp
 category: fun/game

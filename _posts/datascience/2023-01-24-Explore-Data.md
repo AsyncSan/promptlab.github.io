@@ -2,8 +2,8 @@
 date: 2023-01-31T19:38:22.697568Z
 layout: post
 title: Explore Data
-subtitle: A prompt to accelerate your datascience
-description: Prompt to help you with datascience 
+subtitle: Prompt to help you explore data as a data scientist
+description: Prompt to help you explore data as a data scientist
 image: /assets/img/blogtitleimages/ExploreData.webp
 optimized_image: /assets/img/blogtitleimages/ExploreData.webp
 category: datascience

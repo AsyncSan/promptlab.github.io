@@ -3,7 +3,7 @@ date: 2023-01-26T17:19:51.619933Z
 layout: post
 title: SEO research
 subtitle: A prompt to accelerate your marketing
-description: Prompt to help you with marketing 
+description: Do some backlink research
 image: /assets/img/blogtitleimages/SEOresearch.webp
 optimized_image: /assets/img/blogtitleimages/SEOresearch.webp
 category: marketing

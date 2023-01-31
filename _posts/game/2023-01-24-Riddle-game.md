@@ -3,7 +3,7 @@ date: 2023-01-26T17:40:32.075484Z
 layout: post
 title: Riddle game
 subtitle: A prompt to accelerate your game
-description: Prompt to help you with game 
+description: Play a riddle with the A.I.
 image: /assets/img/blogtitleimages/Riddlegame.webp
 optimized_image: /assets/img/blogtitleimages/Riddlegame.webp
 category: fun/game

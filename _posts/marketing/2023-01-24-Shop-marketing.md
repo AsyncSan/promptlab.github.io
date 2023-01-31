@@ -3,7 +3,7 @@ date: 2023-01-26T17:20:28.739833Z
 layout: post
 title: Shop marketing
 subtitle: A prompt to accelerate your marketing
-description: Prompt to help you with marketing 
+description: Improve your shop with generated CTA messages
 image: /assets/img/blogtitleimages/Shopmarketing.webp
 optimized_image: /assets/img/blogtitleimages/Shopmarketing.webp
 category: marketing

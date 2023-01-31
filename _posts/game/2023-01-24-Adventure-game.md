@@ -2,8 +2,8 @@
 date: 2023-01-26T17:35:45.635372Z
 layout: post
 title: Adventure game
-subtitle: A prompt to accelerate your game
-description: Prompt to help you with game 
+subtitle: Prompt to create a text based game inside the chat!
+description: Prompt to create a text based game inside the chat!
 image: /assets/img/blogtitleimages/Adventuregame.webp
 optimized_image: /assets/img/blogtitleimages/Adventuregame.webp
 category: fun/game

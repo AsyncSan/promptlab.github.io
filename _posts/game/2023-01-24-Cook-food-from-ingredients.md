@@ -3,7 +3,7 @@ date: 2023-01-26T18:08:42.500347Z
 layout: post
 title: Cook food from ingredients
 subtitle: A prompt to accelerate your cooking
-description: Prompt to help you with cooking 
+description: Prompt to create a custom recipe
 image: /assets/img/blogtitleimages/Cookfoodfromingredients.webp
 optimized_image: /assets/img/blogtitleimages/Cookfoodfromingredients.webp
 category: fun/game
