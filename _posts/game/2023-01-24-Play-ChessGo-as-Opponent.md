@@ -6,7 +6,7 @@ subtitle: A prompt to accelerate your game
 description: Prompt to help you with game 
 image: /assets/img/blogtitleimages/PlayChessGoasOpponent.webp
 optimized_image: /assets/img/blogtitleimages/PlayChessGoasOpponent.webp
-category: game
+category: fun/game
 tags:
   - game
   - fun

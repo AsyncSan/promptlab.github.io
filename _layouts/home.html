@@ -17,6 +17,7 @@ layout: main
 <div>
     <!--<canvas id="sketch"></canvas>-->
     <script type="text/javascript" src="/assets/js/sketch.js"></script>
+    <script type="text/javascript" src="/assets/js/categoryrefresh.js"></script>
 </div>
 
 <!--
@@ -41,18 +42,108 @@ layout: main
             <div class="gradient"></div>
             <div class="content">
 
-                <h1 class="title">Prompts to make work and your life easier</h1>
-                <p class="description">Search for a situation<br>that you want to ease</p>
+                <h1 class="title" style="text-align: center;">Find a prompt</h1>
+                <p class="description" style="text-align: center;">Search a situation<br>that you want to ease</p>
                 <br>
                 <br>
-                <input type="text" id="search" class="dosearch" placeholder="E.g. Job application">
+                <!--<input type="text" id="search" style="background-color: #252525; font-weight: bolder; color: rgb(230, 230, 230);" class="dosearch" placeholder="🔍 E.g. Job application">-->
+                <input type="text" id="search" style="background-color: #252525; font-weight: bolder; color: rgb(230, 230, 230); font-size: 28px; padding: 10px;" class="dosearch" placeholder="🔍 E.g. Job application">
                 
-                
+
+
             </div>
+            <!--
+            <div class="homebuttonrow" style="overflow-x:scroll;">
+                <div class="buttonrow">
+                    <button class="button" style="background-color:#1d90ff; border-radius:50px; margin-right:10px;" onclick="window.location.href = '/category/cooking/' + this.innerText;">Cooking</button>
+                    <button class="button" style="background-color:#2f9dff; border-radius:50px; margin-right:10px;" onclick="window.location.href = '/category/baking/' + this.innerText;">Baking</button>
+                    <button class="button" style="background-color:#3faaff; border-radius:50px; margin-right:10px;" onclick="window.location.href = '/category/barbeque/' + this.innerText;">Barbeque</button>
+                    <button class="button" style="background-color:#4fb2ff; border-radius:50px; margin-right:10px;" onclick="window.location.href = '/category/grilling/' + this.innerText;">Grilling</button>
+                    <button class="button" style="background-color:#5fb5ff; border-radius:50px; margin-right:10px;" onclick="window.location.href = '/category/salads/' + this.innerText;">Salads</button>
+                </div>
+                <div class="buttonrow" style="margin-top:10px;">
+                    <button class="button" style="background-color:#6fb8ff; border-radius:50px; margin-right:10px;" onclick="window.location.href = '/category/soups/' + this.innerText;">Soups</button>
+                    <button class="button" style="background-color:#7fbbff; border-radius:50px; margin-right:10px;" onclick="window.location.href = '/category/pasta/' + this.innerText;">Pasta</button>
+                    <button class="button" style="background-color:#8fbeff; border-radius:50px; margin-right:10px;" onclick="window.location.href = '/category/seafood/' + this.innerText;">Seafood</button>
+                    <button class="button" style="background-color:#9fc2ff; border-radius:50px; margin-right:10px;" onclick="window.location.href = '/category/vegetarian/' + this.innerText;">Vegetarian</button>
+                    <button class="button" style="background-color:#afc5ff; border-radius:50px; margin-right:10px;" onclick="window.location.href = '/category/desserts/' + this.innerText;">Desserts</button>
+                </div>
+            </div>
+            
+        <div style="display: flex; flex-direction: row; overflow-x: scroll; white-space: nowrap; background: darkgrey; border-radius: 8px; " class="homebuttonrow">
+            <div>
+            <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 5px; background: #fadf01; border-radius: 8px;" onclick="location.href='/category/cooking/'">Cooking</button>
+            <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 5px; background: #f8ff02; border-radius: 8px;" onclick="location.href='/category/baking/'">Baking</button>
+            <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 5px; background: #00fef0; border-radius: 8px;" onclick="location.href='/category/dining/'">Dining</button>
+            <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 5px; background: #0ef8ff; border-radius: 8px;" onclick="location.href='/category/entertaining/'">Entertaining</button>
+            </div>
+            <div style="display: flex; flex-direction: row; overflow-x: scroll; white-space: nowrap; background: darkgrey; border-radius: 8px; " class="homebuttonrow">
+            <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 5px; background: #a8ff00; border-radius: 8px;" onclick="location.href='/category/drinks/'">Drinks</button>
+            <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 5px; background: #f4ff00; border-radius: 8px;" onclick="location.href='/category/snacks/'">Snacks</button>
+            <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 5px; background: #f2f800; border-radius: 8px;" onclick="location.href='/category/soups/'">Soups</button>
+            <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 5px; background: #e9ff00; border-radius: 8px;" onclick="location.href='/category/sauces/'">Sauces</button>
+            <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 5px; background: #a4ff00; border-radius: 8px;" onclick="location.href='/category/salads/'">Salads</button>
+            <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 5px; background: #f2ff00; border-radius: 8px;" onclick="location.href='/category/desserts/'">Desserts</button>
+            </div>
+        -->
+    <div class="buttonrowhome">
+        <div style="display: flex; flex-direction: column; overflow-x: scroll; white-space: nowrap; background: #d3d3d3; border-radius: 15px; padding-top: 10px;">
+            <div style="display: flex; flex-direction: row; margin-left: 5px;">
+            <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 8px; background: #d3d3d3; color: #a8a8a8; font-weight: bold; border-radius: 15px;" onclick="location.href='/category/cooking/'">Cooking 🍳</button>
+            <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 8px; background: #d3d3d3; color: #a8a8a8; font-weight: bold; border-radius: 15px;" onclick="location.href='/category/marketing/'">Marketing 📊</button>
+            <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 8px; background: #d3d3d3; color: #a8a8a8; font-weight: bold; border-radius: 15px;" onclick="location.href='/category/dining/'">Dining 🍽️</button>
+            <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 8px; background: #d3d3d3; color: #a8a8a8; font-weight: bold; border-radius: 15px;" onclick="location.href='/category/entertaining/'">Entertaining 🤗</button>
+            </div>
+            <div style="display: flex; flex-direction: row; margin-left: 20px; margin-top: 10px; margin-bottom: 10px;">
+            <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 8px; background: #d3d3d3; color: #a8a8a8; font-weight: bold; border-radius: 15px;" onclick="location.href='/category/fun/game/'">Games 🎮</button>
+            <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 8px; background: #d3d3d3; color: #a8a8a8; font-weight: bold; border-radius: 15px;" onclick="location.href='/category/fun/impersonation/'">Impersonation 🤡</button>
+            <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 8px; background: #d3d3d3; color: #a8a8a8; font-weight: bold; border-radius: 15px;" onclick="location.href='/category/sauces/'">Sauces 🥫</button>
+            <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 8px; background: #d3d3d3; color: #a8a8a8; font-weight: bold; border-radius: 15px;" onclick="location.href='/category/salads/'">Salads 🥗</button>
+            </div>
+        </div>
+        <!--
+        <div style="display: flex; flex-direction: column; overflow-x: scroll; white-space: nowrap; background: rgba(0, 0, 0, 0.7); border-radius: 8px; padding-top: 10px;">
+            <div style="display: flex; flex-direction: row; margin-left: 5px;">
+              <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 8px; background: #fadf01; border-radius: 8px;" onclick="location.href='/category/cooking/'">Cooking</button>
+              <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 8px; background: #f8ff02; border-radius: 8px;" onclick="location.href='/category/marketing/'">Marketing</button>
+              <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 8px; background: #00fef0; border-radius: 8px;" onclick="location.href='/category/dining/'">Dining</button>
+              <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 8px; background: #0ef8ff; border-radius: 8px;" onclick="location.href='/category/entertaining/'">Entertaining</button>
+            </div>
+            <div style="display: flex; flex-direction: row; margin-left: 20px; margin-top: 10px;">
+              <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 8px; background: #f4ff00; border-radius: 8px;" onclick="location.href='/category/fun/game/'">Games</button>
+              <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 8px; background: #f2f800; border-radius: 8px;" onclick="location.href='/category/fun/impersonation/'">Impersonation</button>
+              <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 8px; background: #e9ff00; border-radius: 8px;" onclick="location.href='/category/sauces/'">Sauces</button>
+              <button style="margin: 0px 5px; flex-shrink: 0; width: 150px; padding: 8px; background: #a4ff00; border-radius: 8px;" onclick="location.href='/category/salads/'">Salads</button>
+            </div>
+          </div>
+        -->
+    </div>
+
+            
         </section>
     </div>
-    <div class="arrow"></div>
+
+    <!--<div class="arrow"></div> -->
 </div>
+<ul id="postList">
+
+</ul>
+<!--
+<ul id="postList">
+    {% for category in site.categories %}
+        {% if category.first == "cooking" or category.first == "baking" %}
+            <li class="category {{ category.first }}">
+                <h2>{{ category.first }}</h2>
+                <ul>
+                    {% for post in category.last %}
+                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+-->
 
 <main class="home {% if site.show_hero and paginator == nil or paginator.page == 1 %}no-padding{% endif %}" role="main">
     {% if site.show_hero and paginator == nil or paginator.page == 1 %}
@@ -232,3 +323,4 @@ layout: main
   }
 }
 </script>
+

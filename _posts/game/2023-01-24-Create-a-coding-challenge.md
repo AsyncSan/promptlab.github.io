@@ -6,7 +6,7 @@ subtitle: A prompt to accelerate your game
 description: Prompt to help you with game 
 image: /assets/img/blogtitleimages/Createacodingchallenge.webp
 optimized_image: /assets/img/blogtitleimages/Createacodingchallenge.webp
-category: game
+category: fun/game
 tags:
   - game
   - fun

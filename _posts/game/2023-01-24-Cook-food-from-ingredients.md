@@ -6,7 +6,7 @@ subtitle: A prompt to accelerate your cooking
 description: Prompt to help you with cooking 
 image: /assets/img/blogtitleimages/Cookfoodfromingredients.webp
 optimized_image: /assets/img/blogtitleimages/Cookfoodfromingredients.webp
-category: cooking
+category: fun/game
 tags:
   - food
   - cooking

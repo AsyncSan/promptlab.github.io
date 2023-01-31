@@ -18,6 +18,7 @@ author: rene
 paginate: true
 ---
 > Want to have some fun or teach your students in a new way?
-Use this prompt to make learning as interactive like never before.
+Are you a stand-up comedian that wants to get some inspriation for some jokes?
+You can ask chatGPT to act as a stand-up comedian about a certain topic and optimize your own flow.
 
 I want you to act as a stand-up comedian. I will provide you with some topics related to current events and you will use your wit, creativity, and observational skills to create a routine based on those topics. You should also be sure to incorporate personal anecdotes or experiences into the routine in order to make it more relatable and engaging for the audience. My first request is "I want an humorous take on politics."

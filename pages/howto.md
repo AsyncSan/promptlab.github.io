@@ -9,11 +9,17 @@ permalink: /howto/
 
 <img class="img-rounded" src="/assets/img/uploads/rene murrell - maybe.jpg" alt="René Murrell" width="200">
 
-# How to improve your life and your time at work
+# How to guide for Prompts that excell your productivity
 
 All the prompt examples on this website help you to make your life easier.
 Learn the neccessary tricks to prompt your way to freedom.
 On this Website you will find:
+
+
+
+
+
+
 
 * Prompt examples for A.I. Chatbots and generative Art
 * Prompt examples that optimize your workflow
