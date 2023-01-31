@@ -7,8 +7,4 @@ description: Use A.I. prompts to ease your life and optimize your workflow
 permalink: /prompt/
 ---
 
-## prompt me baby one more time!
-
-
-
-
+## Prompt me baby, one more time\n
