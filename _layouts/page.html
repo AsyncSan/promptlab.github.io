@@ -5,6 +5,9 @@ layout: default
 <div class="post">
 
   <article class="post-content fullwidth">
+    {% if page.toc %}
+    {{ content | toc }}
+    {% endif %}
     {{ content }}
   </article>
 

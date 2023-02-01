@@ -40,3 +40,26 @@ author: rene
 </ul></p>
     </div>
   </div>
+
+    #Import the relevant libraries 
+    import numpy as np 
+    import pandas as pd 
+    import matplotlib.pyplot as plt 
+    from [model_name] import [model_name] 
+
+    #Define the model 
+    model = [model_name]() 
+
+    #Define the parameters to tune 
+    params = {'parameter_1':[0.2,0.4,0.6,0.8], 
+              'parameter_2':[5, 10, 15, 20], 
+              'parameter_3':[10, 15, 20, 25] 
+            } 
+
+    #Train model using grid search 
+    from sklearn.model_selection import GridSearchCV 
+    clf = GridSearchCV(model, params, cv=3, scoring='accuracy') 
+    clf.fit(X, y) 
+
+    #Display the best parameters 
+    print("The best parameters are: " + str(clf.best_params_))

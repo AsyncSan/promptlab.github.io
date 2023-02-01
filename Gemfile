@@ -8,3 +8,4 @@ gem "jekyll-paginate"
 gem "jekyll-paginate-content"
 gem "json"
 gem "webrick"
+gem 'jekyll-toc'

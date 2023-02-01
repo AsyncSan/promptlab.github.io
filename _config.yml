@@ -22,6 +22,8 @@ menu:
     url: /prompt
   - title: Blog
     url: /blog
+  - title: Privacy
+    url: /privacy/
 #  - title: Feed
 #    url: /feed.xml
 email: r.murrell@hotmail.de
@@ -97,6 +99,16 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-paginate-content
+  - jekyll-toc
+
+# TOC Settings
+toc:
+  min_level: 1
+  max_level: 3
+  list_class: toc
+  list_class: toc__list
+  sublist_class: toc__sublist
+
 
 # Exclude my node related stuff
 exclude: [
