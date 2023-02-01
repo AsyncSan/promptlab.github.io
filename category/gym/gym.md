@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Gym
-slug: leargymning
-description: Prompts to learn and research
+slug: gym
+description: Prompts to optimze your gym life
 ---
