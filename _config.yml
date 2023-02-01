@@ -16,14 +16,14 @@ menu:
     url: /about
   - title: How to
     url: /howto
-  - title: Contact
-    url: /contact
   - title: Prompt
     url: /prompt
   - title: Blog
     url: /blog
   - title: Privacy
     url: /privacy/
+  - title: Contact
+    url: /contact
 #  - title: Feed
 #    url: /feed.xml
 email: r.murrell@hotmail.de
