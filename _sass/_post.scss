@@ -726,9 +726,17 @@
 .prompttextdiv {
   padding: 5px;
 }
-
+/*
 .promptinnerdivbottom {
-  background-color: darkgrey;
+  background-color: #c7e6ff;
   padding: 10px;
   color: black;
 }
+*/
+.promptinnerdivbottom {
+  background:#c7e0ff;
+  border-radius:8px;
+  box-shadow:inset 0px -2px 3px 4px rgba(0, 0, 0, 0.1), 0px 8px 10px -12px rgba(0, 0, 0, 0.3), 0px 20px 22px -24px rgba(0, 0, 0, 0.2);
+  padding:16px;
+}
+
