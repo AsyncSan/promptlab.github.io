@@ -120,7 +120,7 @@ with open('promptstopost.csv', 'r', encoding='utf-8') as csvfile:
 
 
         #filename = f"{title}.md"
-        filename = f"2023-01-24-{title}.md".replace("/", "")
+        filename = f"2023-02-02-{title}.md".replace("/", "")
         filename = filename.replace(" ", "-")
 
 

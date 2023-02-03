@@ -36,12 +36,16 @@ function queryAPI(url, authorization, org) {
 }
 
 function callAPI(inputText) {
+  console.log("sendMessage called");
+  console.log(inputText);
   // API call code here
-  var response = "";// API response
+  var response = inputText;
   return response;
 }
 
 function displayMessage(message) {
+  console.log("displayMessage called");
+  console.log(message);
   // Get the display field
   var displayField = document.getElementById("displayfield");
   // Append the message to the display field
