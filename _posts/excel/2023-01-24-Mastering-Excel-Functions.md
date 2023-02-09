@@ -2,8 +2,8 @@
 date: 2023-02-02T00:12:05.185695Z
 layout: post
 title: Mastering Excel Functions
-subtitle: A prompt to accelerate your excel
-description: Prompt to help you with excel 
+subtitle: Prompt to get the most useful excel functions
+description: Prompt to get the most useful excel functions
 image: /assets/img/blogtitleimages/MasteringExcelFunctions.webp
 optimized_image: /assets/img/blogtitleimages/MasteringExcelFunctions.webp
 category: excel
